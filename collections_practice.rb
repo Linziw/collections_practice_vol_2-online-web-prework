@@ -99,12 +99,24 @@ end
 
 
 
-#def merge_data(keys,data)
- # data.each do |name_stats|
-# name_stats each do |k,v|
-#end
-#end
+def merge_data(old_keys,data)
+  
+end  
+ 
 
+
+
+
+
+
+
+
+
+
+
+
+
+=begin
 def merge_data(arr1, arr2)
   arr2[0].map do |name, prop_hash|
     new_prop_hash = {}
@@ -116,6 +128,7 @@ def merge_data(arr1, arr2)
     new_prop_hash
   end
 end
+=end
 
 
 
