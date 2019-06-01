@@ -100,7 +100,8 @@ end
 
 
 def merge_data(first_name_hash,name_ahl_hash)
-  binding.pry
+  name_ahl_hash.each do |k, v|
+  end
 end  
  
 
