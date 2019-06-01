@@ -109,6 +109,8 @@ end
 
 
 
+
+
 def find_cool(cool_hash)
   new_array=[]
   cool_hash.each do |name_temp_hash|
