@@ -99,7 +99,7 @@ end
 
 
 
-def merge_data(old_keys,data)
+def merge_data(first_name_hash,data)
   binding.pry
 end  
  
