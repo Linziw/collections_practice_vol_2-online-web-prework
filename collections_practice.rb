@@ -99,11 +99,13 @@ end
 
 
 
-def merge_data(first_name_hash,name_ahl_hash)
-  name_ahl_hash.each do |k, v|
+def merge_data(first_name_hash,name_ahl_array)
+  name_ahl_array.each do |name_ahl_hash|
+    name_ahl_hash.each do |k,v|
     binding.pry
   end
 end  
+end
  
 
 
