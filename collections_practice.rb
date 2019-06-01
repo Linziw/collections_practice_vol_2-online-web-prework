@@ -99,7 +99,7 @@ end
 
 
 
-def merge_data(first_name_hash,data)
+def merge_data(first_name_hash,name_ahl_hash)
   binding.pry
 end  
  
