@@ -103,6 +103,8 @@ def merge_data(first_name_hash,name_ahl_array)
   new_hash={}
   name_ahl_array.each do |name_ahl_hash|
     name_ahl_hash.each do |name,ahl_hash|
+      new_hash << name_ahl_array
+      binding.pry
     
   end
 end  
